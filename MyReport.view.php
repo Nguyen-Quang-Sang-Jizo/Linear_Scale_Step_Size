@@ -41,7 +41,8 @@
         foreach ($series as $key => $seri) {
             if ($key > 0) {
                 $series[$seri] = [
-                    'borderColor' => $color[$colorIndex]
+                    'borderColor' => $color[$colorIndex],
+                    'backgroundColor' =>  $color[$colorIndex]
                 ];
                 $colorIndex = ($colorIndex + 1) % count($color);
             }
@@ -62,7 +63,8 @@
         foreach ($series as $key => $seri) {
             if ($key > 0) {
                 $series[$seri] = [
-                    'borderColor' => $color[$colorIndex]
+                    'borderColor' => $color[$colorIndex],
+                    'backgroundColor' =>  $color[$colorIndex]
                 ];
                 $colorIndex = ($colorIndex + 1) % count($color);
             }
@@ -84,7 +86,8 @@
         foreach ($series as $key => $seri) {
             if ($key > 0) {
                 $series[$seri] = [
-                    'borderColor' => $color[$colorIndex]
+                    'borderColor' => $color[$colorIndex],
+                    'backgroundColor' =>  $color[$colorIndex]
                 ];
                 $colorIndex = ($colorIndex + 1) % count($color);
             }
@@ -105,7 +108,8 @@
         foreach ($series as $key => $seri) {
             if ($key > 0) {
                 $series[$seri] = [
-                    'borderColor' => $color[$colorIndex]
+                    'borderColor' => $color[$colorIndex],
+                    'backgroundColor' =>  $color[$colorIndex]
                 ];
                 $colorIndex = ($colorIndex + 1) % count($color);
             }
@@ -141,7 +145,8 @@
         foreach ($series as $key => $seri) {
             if ($key > 0) {
                 $series[$seri] = [
-                    'borderColor' => $color[$colorIndex]
+                    'borderColor' => $color[$colorIndex],
+                    'backgroundColor' =>  $color[$colorIndex]
                 ];
                 $colorIndex = ($colorIndex + 1) % count($color);
             }
@@ -158,7 +163,8 @@
         foreach ($series as $key => $seri) {
             if ($key > 0) {
                 $series[$seri] = [
-                    'borderColor' => $color[$colorIndex]
+                    'borderColor' => $color[$colorIndex],
+                    'backgroundColor' => $color[$colorIndex]
                 ];
                 $colorIndex = ($colorIndex + 1) % count($color);
             }
